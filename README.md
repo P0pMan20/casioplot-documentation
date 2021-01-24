@@ -16,7 +16,9 @@ casioplot is a preinstalled micropython module on casio graphing calculators tha
 #### Parameters
 * x : x coordinate on screen
 * y : y coordinate on screen
-Returns None 
+
+#### Returns
+* Returns a tuple with the colour of the specified pixel, if value is off screen it returns None
  
 Gets a pixel on the screen using (x, y) coordinates
  
@@ -24,5 +26,17 @@ Gets a pixel on the screen using (x, y) coordinates
 ```python
 import casioplot
 
+#Valid input
+
 pixel_colour = casioplot.get_pixel(5, 10)
+print(pixel_colour)
+
+(255, 255, 255)
+
+#Invalid input
+
+pixel_colour = casioplot.get_pixel(2000, 2000)
+print(pixel_colour)
+
+None
 ```
