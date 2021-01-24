@@ -9,4 +9,29 @@ casioplot is a preinstalled micropython module on casio graphing calculators tha
 * clear_screen()
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## get_pixel()
