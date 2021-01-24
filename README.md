@@ -18,8 +18,8 @@ casioplot is a preinstalled micropython module on casio graphing calculators tha
 Gets a pixel on the screen using (x, y) coordinates
  
 #### Usage
-'''python
+```python
 import casioplot
 
 pixel_colour = casioplot.get_pixel(5, 10)
-'''
+```
