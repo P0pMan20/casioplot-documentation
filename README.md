@@ -79,32 +79,46 @@ Draws a string into VRAM
 ```python
 import casioplot
 
-casioplot.set_pixel(20, 20, "test_string", (255, 0, 0), "large") #draws a large red string starting at (20,20)
+casioplot.draw_string(20, 20, "test_string", (255, 0, 0), "large") #draws a large red string starting at (20,20)
 casioplot.show_screen() #displays VRAM
 
 ```
 
-## draw_string(x, y, string, rgb=(0, 0, 0), text_size='medium')
+## show_screen()
 #### Parameters
-* x : integer, x coordinate on screen (starting from upper left corner)
-* y : integer, y coordinate on screen (starting from upper left corner)
-* string : string, string to be displayed on the scrren
-* rgb : tuple, colour of pixel in RGB format
-* text_size : string, size of text, can be small, medium or large
+* None
 
 
 #### Returns
 * None
  
-Draws a string into VRAM
+Displays the VRAM
 
 #### Usage
 ```python
 import casioplot
 
-casioplot.set_pixel(20, 20, "test_string", (255, 0, 0), "large") #draws a large red string starting at (20,20)
+casioplot.set_pixel(20, 20, (255, 0, 0)) #sets the pixel at (20, 20) to red
 casioplot.show_screen() #displays VRAM
 
 ```
 
+## clear_screen()
+#### Parameters
+* None
 
+
+#### Returns
+* None
+ 
+Clears the VRAM
+
+#### Usage
+```python
+import casioplot
+
+casioplot.set_pixel(20, 20, (255, 0, 0)) #sets the pixel at (20, 20) to red
+casioplot.show_screen() #displays VRAM
+casioplot.clear_screen() #clears VRAM
+casioplot.set_pixel(20, 30, (0, 255, 0)) #sets the pixel at (20,30) to green
+```
