@@ -2,11 +2,11 @@
 casioplot is a preinstalled micropython module on casio graphing calculators that support MicroPython.
 
 # Functions
-* [get_pixel()](https://github.com/P0pMan20/casioplot-documentation/blob/main/README.md#get_pixel)
-* set_pixel()
-* draw_string()
-* show_screen()
-* clear_screen()
+* [get_pixel()](https://github.com/P0pMan20/casioplot-documentation/blob/main/README.md#get_pixelx-y)
+* [set_pixel()](https://github.com/P0pMan20/casioplot-documentation/blob/main/README.md#set_pixelx-y-rgb0-0-0)
+* [draw_string()](https://github.com/P0pMan20/casioplot-documentation/blob/main/README.md#draw_stringx-y-string-rgb0-0-0-text_sizemedium)
+* [show_screen()](https://github.com/P0pMan20/casioplot-documentation/blob/main/README.md#show_screen)
+* [clear_screen()](https://github.com/P0pMan20/casioplot-documentation/blob/main/README.md#clear_screen)
  
 
  
