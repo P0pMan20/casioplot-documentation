@@ -47,6 +47,7 @@ None
 * rgb : tuple, colour of pixel in RGB format
 
 
+
 #### Returns
 * None
  
@@ -60,6 +61,7 @@ casioplot.set_pixel(20, 20, (255, 0, 0)) #sets the pixel at (20, 20) to red
 casioplot.show_screen() #displays VRAM
 
 ```
+![Set_Pixel_Example](/caps/Capt01.bmp)
 
 ## draw_string(x, y, string, rgb=(0, 0, 0), text_size='medium')
 #### Parameters
@@ -83,6 +85,7 @@ casioplot.draw_string(20, 20, "test_string", (255, 0, 0), "large") #draws a larg
 casioplot.show_screen() #displays VRAM
 
 ```
+![Draw_String_Example](/caps/Capt02.bmp)
 
 ## show_screen()
 #### Parameters
@@ -122,3 +125,4 @@ casioplot.show_screen() #displays VRAM
 casioplot.clear_screen() #clears VRAM
 casioplot.set_pixel(20, 30, (0, 255, 0)) #sets the pixel at (20,30) to green
 ```
+![Clear_Screen](/caps/Capt03.bmp)
