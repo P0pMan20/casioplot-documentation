@@ -1,5 +1,6 @@
 # casioplot-documentation
 casioplot is a preinstalled micropython module on casio graphing calculators that support MicroPython.
+Such as the Casio fx-CG50
 
 # Functions
 * [get_pixel()](https://github.com/P0pMan20/casioplot-documentation/blob/main/README.md#get_pixelx-y)
